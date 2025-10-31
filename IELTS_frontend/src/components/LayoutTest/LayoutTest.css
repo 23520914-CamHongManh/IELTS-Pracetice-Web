@@ -1,0 +1,28 @@
+.layout {
+  display: flex;
+  min-height: 100vh;
+  background-color: #F9FAFB;
+  transition: all 0.3s ease;
+}
+
+.main-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  transition: margin-left 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.with-sidebar .main-content {
+  margin-left: 250px;
+}
+
+.no-sidebar .main-content {
+  margin-left: 0;
+}
+
+.content-area {
+  flex-grow: 1;
+  padding: 24px;
+  font-family: 'Merriweather', serif;
+  color: #111827;
+}

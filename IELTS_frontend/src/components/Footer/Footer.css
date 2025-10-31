@@ -1,0 +1,17 @@
+.footer {
+  background-color: #1E3A8A;
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  padding: 16px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer .highlight {
+  color: #F59E0B;
+  font-weight: bold;
+}
